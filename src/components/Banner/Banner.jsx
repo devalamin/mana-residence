@@ -22,14 +22,59 @@ const Banner = () => {
             className="w-full mx-auto h-[600px]"
         >
             <SwiperSlide>
-                <img src={image1} alt="Banner 1" className="w-full h-full object-cover" />
+                <div>
+                    <div className='relative'>
+                        <img src={image1} alt="Banner 1" className="w-full h-full object-cover" />
+                    </div>
+                    <div className='absolute h-full w-full top-0 left-0 bg-[rgba(0,0,0,0.4)] text-white flex flex-col items- justify-center'>
+                        <div className='ml-40'>
+                            <h2 className='text-6xl font-bold'>Find Your Perfect Home —
+                                <br />Where Comfort Meets Community</h2>
+                            <p className='text-start mt-5'>Discover beautifully designed residences in vibrant neighborhoods.
+                                <br />
+                                Whether you're buying or renting, we make it easy to find a place you'll love to call home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image2} alt="Banner 2" className="w-full h-full object-cover" />
+                <div>
+                    <div className='relative'>
+                        <img src={image3} alt="Banner 1" className="w-full h-full object-cover" />
+                    </div>
+                    <div className='absolute h-full w-full top-0 left-0 bg-[rgba(0,0,0,0.4)] text-white flex flex-col items- justify-center'>
+                        <div className='ml-40'>
+                            <h2 className='text-6xl font-bold'>Your Next Chapter Begins at Home
+
+</h2>
+                            <p className='text-start mt-5'>Discover beautifully designed residences in vibrant neighborhoods.
+                                <br />
+                                Whether you're buying or renting, we make it easy to find a place you'll love to call home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={image3} alt="Banner 3" className="w-full h-full object-cover" />
+                <div>
+                    <div className='relative'>
+                        <img src={image2} alt="Banner 1" className="w-full h-full object-cover" />
+                    </div>
+                    <div className='absolute h-full w-full top-0 left-0 bg-[rgba(0,0,0,0.4)] text-white flex flex-col items- justify-center'>
+                        <div className='ml-40'>
+                            <h2 className='text-6xl font-bold'>Find Your Perfect Home —
+                                <br />Where Comfort Meets Community</h2>
+                            <p className='text-start mt-5'>Discover beautifully designed residences in vibrant neighborhoods.
+                                <br />
+                                Whether you're buying or renting, we make it easy to find a place you'll love to call home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </SwiperSlide>
+            
+
         </Swiper>
     );
 };
