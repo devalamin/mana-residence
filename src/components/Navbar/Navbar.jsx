@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <div className='md:flex space-x-5 text-xl'>
-        <Link className='hover:underline'>Home</Link>
+        <Link to='/' className='hover:underline'>Home</Link>
         <Link className='hover:underline'>Properties</Link>
-        <Link className='hover:underline'>Login</Link>
-        <Link className='hover:underline'>Register</Link>
+        <Link to='/login' className='hover:underline'>Login</Link>
+        <Link to='/register' className='hover:underline'>Register</Link>
         <Link className='hover:underline'>Update Profile</Link>
 
     </div>
