@@ -1,87 +1,131 @@
 [
     {
-      "id": 1,
-      "estate_title": "Modern Single-Family Home in Suburbia",
-      "segment_name": "Single-family home",
-      "description": "A spacious and modern 4-bedroom single-family home located in a peaceful neighborhood with a private backyard and garage.",
-      "price": "$450,000",
-      "status": "sale",
-      "area": "2500 sq ft",
-      "location": "Westwood, Los Angeles, CA",
-      "facilities": ["living room", "swimming pool", "kitchen", "garage", "backyard"],
-      "image": "https://i.ibb.co/pjH582PB/zac-gudakov-Fk9-o1r-B1-T8-unsplash.jpg"
+        "id": 1,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Modern Single-Family Home in Suburbia",
+        "segment_name": "Single-family home",
+        "description": "A spacious and modern 4-bedroom single-family home located in a peaceful neighborhood with a private backyard and garage.",
+        "price": "$450,000",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "Westwood, Los Angeles, CA",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "garage",
+            "backyard"
+        ],
+        "image": "https://i.ibb.co/k6H4VpBK/image6.jpg"
     },
     {
-      "id": 2,
-      "estate_title": "Cozy Townhouse with Garden View",
-      "segment_name": "Townhouse",
-      "description": "A cozy 3-bedroom townhouse with a beautiful garden view, perfect for small families.",
-      "price": "$300,000",
-      "status": "sale",
-      "area": "1800 sq ft",
-      "location": "Plano, Texas",
-      "facilities": ["living room", "kitchen", "garden", "garage"],
-      "image": "https://i.ibb.co/CpXF2797/norbert-levajsics-o-TJ92-KUXHls-unsplash.jpg"
+        "id": 2,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Cozy Townhouse with Garden View",
+        "segment_name": "Townhouse",
+        "description": "A cozy 3-bedroom townhouse with a beautiful garden view, perfect for small families.",
+        "price": "$300,000",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "Plano, Texas",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "garden",
+            "garage"
+        ],
+        "image": "https://i.ibb.co/CK2QxrDG/image5.jpg"
     },
     {
-      "id": 3,
-      "estate_title": "Luxury Apartment in Downtown",
-      "segment_name": "Apartment",
-      "description": "An upscale 2-bedroom apartment in the heart of downtown with top-tier amenities.",
-      "price": "$2,200/month",
-      "status": "rent",
-      "area": "1200 sq ft",
-      "location": "Downtown, Chicago, IL",
-      "facilities": ["living room", "swimming pool", "kitchen", "gym", "balcony"],
-      "image": "https://i.ibb.co/5hCZT7WG/brian-zajac-4-Lngt-Xlsj-Js-unsplash.jpg"
+        "id": 3,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Luxury Apartment in Downtown",
+        "segment_name": "Apartment",
+        "description": "An upscale 2-bedroom apartment in the heart of downtown with top-tier amenities.",
+        "price": "$2,200/month",
+        "status": "rent",
+        "area": "1200 sq ft",
+        "location": "Downtown, Chicago, IL",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "gym",
+            "balcony"
+        ],
+        "image": "https://i.ibb.co/JRR9m1mM/image4.jpg"
     },
     {
-      "id": 4,
-      "estate_title": "Affordable Student Housing Unit",
-      "segment_name": "Student housing",
-      "description": "Furnished student housing with shared kitchen and study lounge, close to campus.",
-      "price": "$600/month",
-      "status": "rent",
-      "area": "400 sq ft",
-      "location": "University District, Seattle, WA",
-      "facilities": ["kitchen", "study lounge", "laundry", "internet"],
-      "image": "https://i.ibb.co/FLJX3660/marek-omasta-2-J6-NHPQ7-F1o-unsplash.jpg"
+        "id": 4,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Affordable Student Housing Unit",
+        "segment_name": "Student housing",
+        "description": "Furnished student housing with shared kitchen and study lounge, close to campus.",
+        "price": "$600/month",
+        "status": "rent",
+        "area": "400 sq ft",
+        "location": "University District, Seattle, WA",
+        "facilities": [
+            "kitchen",
+            "study lounge",
+            "laundry",
+            "internet"
+        ],
+        "image": "https://i.ibb.co/7J6bWc82/image7.jpg"
     },
     {
-      "id": 5,
-      "estate_title": "Charming Suburban Apartment",
-      "segment_name": "Apartment",
-      "description": "A well-maintained suburban apartment, ideal for couples or remote workers.",
-      "price": "$1,400/month",
-      "status": "rent",
-      "area": "950 sq ft",
-      "location": "Naperville, Illinois",
-      "facilities": ["living room", "kitchen", "balcony", "parking"],
-      "image": "https://i.ibb.co/nqkc9kMd/terrah-holly-pmhdkg-RCbt-E-unsplash.jpg"
+        "id": 5,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Charming Suburban Apartment",
+        "segment_name": "Apartment",
+        "description": "A well-maintained suburban apartment, meal for couples or remote workers.",
+        "price": "$1,400/month",
+        "status": "rent",
+        "area": "950 sq ft",
+        "location": "Naperville, Illinois",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "balcony",
+            "parking"
+        ],
+        "image": "https://i.ibb.co/r2rytsqP/image3.jpg"
     },
     {
-      "id": 6,
-      "estate_title": "Elegant Townhouse near Park",
-      "segment_name": "Townhouse",
-      "description": "An elegant 2-story townhouse located next to a park with a scenic view and playground access.",
-      "price": "$375,000",
-      "status": "sale",
-      "area": "2000 sq ft",
-      "location": "Charlotte, North Carolina",
-      "facilities": ["living room", "kitchen", "garage", "playground nearby"],
-      "image": "https://i.ibb.co/p6RF8fmt/kara-eads-L7-Ew-Hkq1-B2s-unsplash.jpg"
+        "id": 6,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Elegant Townhouse near Park",
+        "segment_name": "Townhouse",
+        "description": "An elegant 2-story townhouse located next to a park with a scenic view and playground access.",
+        "price": "$375,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "Charlotte, North Carolina",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "garage",
+            "playground nearby"
+        ],
+        "image": "https://i.ibb.co/FkS4gHFL/image2.jpg"
     },
     {
-      "id": 7,
-      "estate_title": "Spacious Family Home with Pool",
-      "segment_name": "Single-family home",
-      "description": "A large family-friendly home featuring 5 bedrooms, a private pool, and a modern kitchen.",
-      "price": "$520,000",
-      "status": "sale",
-      "area": "3200 sq ft",
-      "location": "Scottsdale, Arizona",
-      "facilities": ["living room", "swimming pool", "kitchen", "garage", "patio"],
-      "image": "https://i.ibb.co/v6QT9fkR/spacejoy-XM-mi-Hibz64-unsplash.jpg"
+        "id": 7,
+        "details": "This charming suburban apartment is an ideal choice for couples, remote workers, or small families looking for a peaceful, well-maintained space to call home. Located in the heart of Naperville, Illinois, it provides easy access to local shops, parks, and public transportation. The apartment boasts a spacious 950 sq ft layout with an open-plan living and dining area, perfect for entertaining guests or relaxing after a long day. The large windows allow natural light to flood the space, creating a bright and welcoming atmosphere throughout the apartment. The kitchen is fully equipped with modern appliances, including a refrigerator, stove, microwave, and dishwasher, ensuring that you have everything you need for meal preparation and cooking.",
+        "estate_title": "Spacious Family Home with Pool",
+        "segment_name": "Single-family home",
+        "description": "A large family-friendly home featuring 5 bedrooms, a private pool, and a modern kitchen.",
+        "price": "$520,000",
+        "status": "sale",
+        "area": "3200 sq ft",
+        "location": "Scottsdale, Arizona",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "garage",
+            "patio"
+        ],
+        "image": "https://i.ibb.co/3mS3MBV4/image1.jpg"
     }
-  ]
-  
+]

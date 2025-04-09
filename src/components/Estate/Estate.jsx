@@ -2,21 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Estate = ({ property }) => {
-    console.log(property);
+    console.log(property.facilities.join());
     return (
         <div className="card bg-base-100 shadow-xl">
             <figure>
-                <img src={property.image} alt={property.estate_title} className="h-52 w-full object-cover" />
+                <img src={property?.image} alt={property?.estate_title} className="h-52 w-full object-cover" />
             </figure>
             <div className="card-body">
                 <div className="flex justify-between items-center mb-2">
-                    <h2 className="card-title">{property.estate_title}</h2>
-                    <div className={`badge ${property.status === 'rent' ? 'badge-success' : 'badge-info'}`}>
-                        {property.status.toUpperCase()}
+                    <h2 className="card-title">{property?.estate_title}</h2>
+                    <div className={`badge ${property?.status === 'rent' ? 'badge-success' : 'badge-info'}`}>
+                        {property?.status?.toUpperCase()}
                     </div>
                 </div>
-                <p className="text-sm text-gray-600">{property.location}</p>
-                <p className="text-sm mt-1">{property.description}</p>
+                <p className="text-sm text-gray-600">{property?.location}</p>
+                <p className="text-sm mt-1">{property?.description}</p>
                 <div className="mt-2 text-sm">
                     <strong>Area:</strong> {property.area}
                 </div>
@@ -28,7 +28,7 @@ const Estate = ({ property }) => {
                 </div>
                 <div className="divider"></div>
                 <div className="card-actions justify-end mt-4">
-                    <Link className="btn btn-sm btn-outline btn-primary">View Details</Link>
+                    <Link to={`/property/${property?.id}`} className="btn btn-sm btn-outline btn-primary">View Details</Link>
                 </div>
             </div>
         </div>
