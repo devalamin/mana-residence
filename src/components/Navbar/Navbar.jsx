@@ -1,16 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Navbar = () => {
     const links = <div className='md:flex space-x-5 text-xl'>
-        <Link to='/' className='hover:underline'>Home</Link>
-        <Link className='hover:underline'>Properties</Link>
-        <Link to='/login' className='hover:underline'>Login</Link>
-        <Link to='/register' className='hover:underline'>Register</Link>
-        <Link className='hover:underline'>Update Profile</Link>
+        <NavLink to='/' className='active:text-primary focus:text-primary focus:underline'>Home</NavLink>
+        <NavLink className='active:text-primary focus:text-primary focus:underline'>Properties</NavLink>
+        <NavLink to='/login' className='active:text-primary focus:text-primary focus:underline'>Login</NavLink>
+        <NavLink to='/register' className='active:text-primary focus:text-primary focus:underline'>Register</NavLink>
+        <NavLink className='active:text-primary focus:text-primary focus:underline'>Update Profile</NavLink>
 
     </div>
 
+
+    const { user, logOutUser } = useContext(AuthContext)
+    // console.log(user);
     return (
         <div className='bg-base-300'>
             <div className='w-11/12 mx-auto'>
@@ -36,7 +40,17 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <Link>User</Link>
+                        {
+                            user?.email ? <div className='flex items-center space-x-2'>
+                                <div className="tooltip tooltip-left" data-tip={user?.displayName}>
+                                    <img className='h-12 w-12 rounded-full object-cover' src={user?.photoURL} alt="" />
+                                </div>
+
+
+                                <button onClick={logOutUser} className='btn btn-error'>Log Out</button>
+
+                            </div> : <Link to='/login'>Login</Link>
+                        }
                     </div>
                 </div>
             </div>

@@ -1,13 +1,37 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 import Navbar from '../Navbar/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Register = () => {
 
+    const { createUser, updateUserProfile, setUser } = useContext(AuthContext)
+    const navigate = useNavigate()
     const handleSignUp = (e) => {
         e.preventDefault()
-        console.log(e.target.name.value);
+        const name = e.target.name.value
+        const photo = e.target.photo.value
+        const email = e.target.email.value
+        const password = e.target.password.value
+
+        createUser(email, password)
+            .then(result => {
+                console.log(result.user);
+               
+                updateUserProfile({ displayName: name, photoURL: photo })
+                    .then(() => {
+                        navigate('/')
+                        console.log('updated profile');
+                    })
+                    .catch(err => {
+                        console.log(err);
+                    })
+            })
+            .catch(err => {
+                console.log('Error', err);
+            })
+
     }
 
     return (
@@ -42,6 +66,7 @@ const Register = () => {
                             <input
                                 type="url"
                                 id="photoUrl"
+                                name='photo'
                                 className="w-full p-2 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 placeholder="Enter your photo URL"
                             />
@@ -55,6 +80,7 @@ const Register = () => {
                             <input
                                 type="email"
                                 id="email"
+                                name='email'
                                 className="w-full p-2 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 placeholder="Enter your email"
                             />
@@ -68,6 +94,7 @@ const Register = () => {
                             <input
                                 type="password"
                                 id="password"
+                                name='password'
                                 className="w-full p-2 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 placeholder="Enter your password"
                             />

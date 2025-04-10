@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Estate = ({ property }) => {
-    console.log(property.facilities.join());
+    // console.log(property.facilities.join());
     return (
         <div className="card bg-base-100 shadow-xl">
             <figure>

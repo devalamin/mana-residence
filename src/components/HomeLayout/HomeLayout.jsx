@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Banner from '../Banner/Banner';
 import Estates from '../Estate/Estates';
+import Footer from '../Footer/Footer';
 
 const HomeLayout = () => {
 
@@ -20,7 +21,9 @@ const HomeLayout = () => {
                     <Estates estatePromise={estatePromise}></Estates>
                 </Suspense>
             </main>
-            <footer></footer>
+            <footer>
+                <Footer></Footer>
+            </footer>
         </div>
     );
 };
