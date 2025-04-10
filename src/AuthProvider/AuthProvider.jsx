@@ -45,7 +45,8 @@ const AuthProvider = ({ children }) => {
         user,
         logOutUser,
         updateUserProfile,
-        loading
+        loading,
+        setLoading
     }
 
     useEffect(() => {
@@ -62,7 +63,7 @@ const AuthProvider = ({ children }) => {
 
 
 
-    if(loading){
+    if (loading) {
         return <Loading></Loading>
     }
 
