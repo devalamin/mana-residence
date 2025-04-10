@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
+import Navbar from '../Navbar/Navbar';
 
 const Login = () => {
 
@@ -31,6 +32,7 @@ const Login = () => {
 
 
         <div>
+            <Navbar></Navbar>
             <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
 
                 <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-8 space-y-6">

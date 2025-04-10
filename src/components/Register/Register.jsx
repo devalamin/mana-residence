@@ -64,7 +64,7 @@ const Register = () => {
                                 Photo URL
                             </label>
                             <input
-                                type="url"
+                                type="text"
                                 id="photoUrl"
                                 name='photo'
                                 className="w-full p-2 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
