@@ -19,26 +19,29 @@
 
 ---
 
-## 🛠️ packages Used
+## 🛠️ Tech Stack
 
-- **React.js (Vite)**
-- **React Router DOM**
-- **Tailwind CSS**
-- **DaisyUI**
-- **Firebase Authentication**
-- **Swiper Slider**
-- **React Icons**
+### ⚙️ Frameworks & Tools
+- **React.js** – JavaScript library for building user interfaces
+- **Vite** – Fast build tool and development server
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **DaisyUI** – Tailwind-based UI component library
+- **Firebase Authentication** – Authentication and user management
+
+### 📦 Libraries
+- **React Router DOM** – Routing and navigation
+- **Swiper.js** – Modern slider for carousels
+- **React Icons** – Popular icon packs for React
 
 ---
 
-## 📸 Screenshots
 
 
 ---
 
 ## 🔧 Getting Started
 
-Follow these steps to run the project locally:
+To run the project locally:
 
 1. Clone the repository:
    ```bash
