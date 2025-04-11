@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ packages Used
 
 - **React.js (Vite)**
 - **React Router DOM**
